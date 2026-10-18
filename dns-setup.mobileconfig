@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://adguard-dns.com</string>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>System-wide encrypted ad, tracker, and malware filtering pipeline.</string>
+            <key>PayloadDisplayName</key>
+            <string>AdGuard Secure Engine</string>
+            <key>PayloadIdentifier</key>
+            <string>com.adguard.dns.secure.settings</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>9B8C7D4E-7C5F-4D2A-B9C0-1E2F3A4B5C6D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>AdBlocker &amp; Malware Network Infrastructure</string>
+    <key>PayloadIdentifier</key>
+    <string>com.network.dns.secure.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>5A4B5C6D-7E8F-9A0B-1C2D-3E4F5A6B7C8D</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
